@@ -1,0 +1,115 @@
+
+
+
+nav {
+	position: fixed;
+	background-color: #d9d9d9;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 1px solid #bfbfbf;
+}
+
+nav h1 {
+	margin-left: 30px;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+nav .logo {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	text-align: right;
+	margin-right: 12px;
+	margin-top: -60px;
+	vertical-align: middle;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: purple;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	margin: 90px;
+}
+
+input {
+	height: 30px;
+	width: 500px;
+	margin-top: 90px;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+}
+
+button {
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+	background-color: white;
+}
+
+.results {
+	margin-top: 50px;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+}
+
+.results th {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.outcome {
+	margin-top: 50px;
+}
+
+.outcome th {
+	padding: 5px;
+}
+
+.outcome tr th:nth-child(3) {
+	text-align: left;
+	font-size: 20px;
+}
+
+.outcome tr th:first-child {
+	color: #bfbfbf;
+	font-size: 20px;
+}
+
+.outcome tr th:first-child:hover {
+	color: yellow;
+}
+
+.outcome tr th:nth-child(2) {
+	color: #bfbfbf;
+	font-size: 20px;
+}
+
+.outcome a {
+	text-decoration: none;
+}
+
+.outcome span {
+	color: #bfbfbf;
+	margin-left: 15px;
+}
